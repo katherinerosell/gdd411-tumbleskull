@@ -60,22 +60,22 @@ public class TumbleWeedScript : MonoBehaviour {
 
         if (moveDirection == Direction.WestToEast) {
             Debug.Log("WEST to EAST ");
-            transform.position = new Vector3(-40f, 2.4f, Random.Range(20f, -23f));
+            transform.position = new Vector3(-40f, 1.07f, Random.Range(20f, -23f));
             direction = new Vector3(1, 0, 0);
         }
         if (moveDirection == Direction.EastToWest){
             Debug.Log("EAST to WEST ");
-            transform.position = new Vector3(58f, 2.4f, Random.Range(20f, -23f));
+            transform.position = new Vector3(58f, 1.07f, Random.Range(20f, -23f));
             direction = new Vector3(-1, 0, 0);
         }
         if (moveDirection == Direction.NorthToSouth){
             Debug.Log("NORTH to SOUTH ");
-            transform.position = new Vector3(Random.Range(-44f, 40f), 2.4f, 44f);
+            transform.position = new Vector3(Random.Range(-44f, 40f), 1.07f, 44f);
             direction = new Vector3(0, 0, -1);
         }
         if (moveDirection == Direction.SouthToNorth){
             Debug.Log("SOUTH to NORTH ");
-            transform.position = new Vector3(Random.Range(-44f, 40f), 2.4f, -36f);
+            transform.position = new Vector3(Random.Range(-44f, 40f), 1.07f, -36f);
             direction = new Vector3(0, 0, 1);
         }
 
